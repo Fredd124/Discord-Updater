@@ -1,4 +1,4 @@
-# Discord DEB Installer
+# Discord Installer/Updater for Linux
 
 This Python script automates the process of downloading and installing the Discord application for Linux systems. It downloads the latest version of Discord, installs it, resolves any dependencies, and cleans up unnecessary packages and files after installation.
 
@@ -11,8 +11,18 @@ Before running this script, ensure you have the following installed:
 
 ## Installation
 
-1. **Clone the Repository** (if applicable):
+1. **Clone the Repository**:
    ```bash
-   git clone [repository-url]
-   cd [repository-directory]
+   git clone git@github.com:Fredd124/Discord-Updater.git
+   cd Discord-Updater
    ```
+2. **Install Python Dependencies**:
+   ```bash
+   pip install requests
+   ```
+## Usage   
+   Run the script with Python from the terminal:
+   ```bash
+   sudo python3 discordUpdater.py
+   ```
+   Note: The script requires sudo privileges to install the Discord .deb package and manage system packages. Make sure to run it in an environment where you have these privileges.
