@@ -23,6 +23,6 @@ Before running this script, ensure you have the following installed:
 ## Usage   
    Run the script with Python from the terminal:
    ```bash
-   sudo python3 discord_updater.py
+   sudo python3 discord_installer_updater.py
    ```
    Note: The script requires sudo privileges to install the Discord .deb package and manage system packages. Make sure to run it in an environment where you have these privileges.
