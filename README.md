@@ -13,8 +13,8 @@ Before running this script, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone git@github.com:Fredd124/Discord-Updater.git
-   cd Discord-Updater
+   git clone git@github.com:Fredd124/Discord-Installer-Updater.git
+   cd Discord-Installer-Updater
    ```
 2. **Install Python Dependencies**:
    ```bash
@@ -23,6 +23,6 @@ Before running this script, ensure you have the following installed:
 ## Usage   
    Run the script with Python from the terminal:
    ```bash
-   sudo python3 discordUpdater.py
+   sudo python3 discord_updater.py
    ```
    Note: The script requires sudo privileges to install the Discord .deb package and manage system packages. Make sure to run it in an environment where you have these privileges.
